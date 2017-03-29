@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seeder", "Seeder.csproj", "{DB61C03E-BA1F-4533-A380-91513D894669}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{38BD7EB0-2C8F-479E-81E9-6C0B1934FF5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppleTreeOrchards", "AppleTreeOrchards", "{6F2E5129-663C-4E56-9DE9-CC80341F9CB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppleTreeOrchards", "Examples\AppleTreeOrchards\AppleTreeOrchards.csproj", "{0D131093-B6F0-42F2-9839-320BBC51C4BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB61C03E-BA1F-4533-A380-91513D894669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB61C03E-BA1F-4533-A380-91513D894669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB61C03E-BA1F-4533-A380-91513D894669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB61C03E-BA1F-4533-A380-91513D894669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D131093-B6F0-42F2-9839-320BBC51C4BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D131093-B6F0-42F2-9839-320BBC51C4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D131093-B6F0-42F2-9839-320BBC51C4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D131093-B6F0-42F2-9839-320BBC51C4BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F2E5129-663C-4E56-9DE9-CC80341F9CB5} = {38BD7EB0-2C8F-479E-81E9-6C0B1934FF5D}
+		{0D131093-B6F0-42F2-9839-320BBC51C4BF} = {6F2E5129-663C-4E56-9DE9-CC80341F9CB5}
+	EndGlobalSection
+EndGlobal
