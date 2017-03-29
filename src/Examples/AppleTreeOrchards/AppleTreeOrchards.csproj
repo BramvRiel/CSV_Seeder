@@ -54,5 +54,11 @@
     <None Include="Seeds\AppleTree.csv" />
     <None Include="Seeds\AppleTreeOrchard.csv" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Seeder.csproj">
+      <Project>{db61c03e-ba1f-4533-a380-91513d894669}</Project>
+      <Name>Seeder</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

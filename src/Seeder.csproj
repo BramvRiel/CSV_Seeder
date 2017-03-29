@@ -42,6 +42,9 @@
     <None Include=".vs\Seeder\v15\.suo" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExtensionMethods.cs" />
+    <Compile Include="ISeeder.cs" />
+    <Compile Include="Seed.cs" />
     <Compile Include="Seeder.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
