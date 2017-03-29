@@ -42,11 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Apple.cs" />
+    <Compile Include="Models\AppleTree.cs" />
+    <Compile Include="Models\AppleTreeOrchard.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Seeds\Apple.csv" />
+    <None Include="Seeds\AppleTree.csv" />
+    <None Include="Seeds\AppleTreeOrchard.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
